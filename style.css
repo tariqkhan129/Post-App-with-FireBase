@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sections-wrapper {
+    max-width:1000px;
+    width: 95%;
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    width:95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section-top {
+    margin-bottom: 36px;
+}
+
+.left-section-bottom-p {
+    margin-bottom: 5px;
+}
+
+.left-section-top h1 {
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+
+.left-section-top h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    max-width: 370px;
+    width: 95%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    outline: none;
+}
+
+.sign-in-head {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.email-input input {
+    margin-bottom: 10px;
+}
+
+.forget-pass-text {
+    text-align: end;
+    color:black;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-bottom: 18px;
+    margin-top: 17px;
+}
+
+.form-input {
+    padding: 20px 50px 20px 26px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    background:#e4dde1;
+    outline: none;
+    border: none;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input img {
+    position: absolute;
+    top: 31.5px;
+    right: 20px;
+    width: 22px;
+    cursor: pointer;
+}
+.register-btn {
+    margin-top: 10px;
+}
+
+.right-section button {
+    padding: 18px;
+    width: 100%;
+    border-radius: 8px;
+    background: purple;
+    box-shadow: 0px 4px 31px 0px rgba(77, 71, 195, 0.40);
+    border: none;
+    outline: none;
+    color:white;
+    margin-bottom: 9px;
+    cursor: pointer;
+}

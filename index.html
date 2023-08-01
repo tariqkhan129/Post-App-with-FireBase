@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="sections-wrapper">
+
+            <section class="left-section">
+                <div class="left-section-top">
+                    <h1>Sign In to</h1>
+                    <h2>Connect and share with the people.</h2>
+                </div>
+                <div class="left-section-bottom">
+                    <p>If you don’t have an account register</p>
+                    <p>You can <a href="signUp.html">Register here !</a></p>
+                </div>
+            </section>
+            <section class="right-section">
+                <!-- Sign In HTML -->
+                <div class="form" id="signInForm" tabindex="1">
+                    <p class="sign-in-head">Sign in</p>
+                    <div class="email-input">
+                        <input id="email" class="form-input" type="email" placeholder="Enter Your Email address">
+                    </div>
+                    <div class="password-input">
+                        <input id="password" class="form-input" type="password" placeholder="Enter Your Password">
+                        <img src="./assets/invisible 1.svg" alt="eye">
+                        <p class="forget-pass-text">Forgor password ?</p>
+                    </div>
+                    <div>
+                        <button id="logInBtn">Login</button>
+                    </div>
+                </div>
+
+            </section>
+    </main>
+    <script type="module" src="login.js"></script>
+</body>
+
+</html>
